@@ -8,8 +8,17 @@ public class Principal {
         miPelicula.fechaLanzamiento = 20220302;
         miPelicula.incluidoEnElPlan = true;
 
-        System.out.println("Mi peliculas es: "+ miPelicula.nombre);
-        System.out.println("Su fecha de lanzamiento es: "+ miPelicula.fechaLanzamiento);
+        miPelicula.evalua(10);
+        miPelicula.evalua(4.5);
+
+        miPelicula.muestraFichaTecnica();
+
+        System.out.println(miPelicula.sumaDeLasEvaluaciones);
+        System.out.println(miPelicula.totalDeLasEvaluaciones);
+        System.out.println(miPelicula.calculaMedia());
+
+
+
 
 
     }
