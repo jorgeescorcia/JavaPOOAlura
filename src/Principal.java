@@ -1,5 +1,7 @@
 
+import com.aluracursos.screenmatch.calculos.CalculadoraDeTiempo;
 import com.aluracursos.screenmatch.modelos.Pelicula;
+import com.aluracursos.screenmatch.modelos.Series;
 
 public class Principal {
 
@@ -19,6 +21,22 @@ public class Principal {
         System.out.println(miPelicula.getSumaDeLasEvaluaciones());
         System.out.println(miPelicula.getTotalDeLasEvaluaciones());
         System.out.println(miPelicula.calculaMedia());
+
+
+        Series casaDragon = new Series();
+        casaDragon.setNombre("La casa del Dragón");
+        casaDragon.setFechaLanzamiento(2022);
+        casaDragon.setTemporada(3);
+        casaDragon.setEpisodiosPorTemporada(10);
+        casaDragon.setMinutosPorEpisodios(45);
+
+        casaDragon.muestraFichaTecnica();
+        System.out.println("La cantidad de minutos de la peliculas es: "+casaDragon.getDuracionEnMinutos());
+
+        CalculadoraDeTiempo calculadora = new CalculadoraDeTiempo();
+        calculadora.incluye(miPelicula);
+        calculadora.incluye(casaDragon);
+        System.out.println(calculadora.getTiempoTotal());
 
 
 
