@@ -1,9 +1,12 @@
+package com.aluracursos.screenmatch.principal;
 
 import com.aluracursos.screenmatch.calculos.CalculadoraDeTiempo;
 import com.aluracursos.screenmatch.calculos.FiltroRecomendacion;
 import com.aluracursos.screenmatch.modelos.Episodio;
 import com.aluracursos.screenmatch.modelos.Pelicula;
 import com.aluracursos.screenmatch.modelos.Series;
+
+import java.util.ArrayList;
 
 public class Principal {
 
@@ -48,6 +51,26 @@ public class Principal {
         episodio.setNumero(15);
         episodio.setNombre("La casa perdida");
         episodio.setTotalVisualizaciones(200);
+
+
+        var peliculaDeBruno = new Pelicula();
+        peliculaDeBruno.setNombre("El señor de los anillos");
+        peliculaDeBruno.setDuracionEnMinutos(180);
+        peliculaDeBruno.setFechaLanzamiento(2001);
+
+        ArrayList<Pelicula> listadePelicula = new ArrayList<>();
+        listadePelicula.add(miPelicula);
+        listadePelicula.add(peliculaDeBruno);
+
+
+        System.out.println("Tamaño de la lista: "+listadePelicula.size());
+        System.out.println("La primera pelicula es: "+listadePelicula.get(0).getNombre());
+
+
+        System.out.println(listadePelicula);
+        System.out.println("To String "+ listadePelicula.get(0).toString());
+
+
 
 
 

@@ -16,7 +16,9 @@ e
 5src/com/aluracursos/screenmatch/modelos/Episodio.java,2\c\2cf7afdfeaec7cd7941e276125e28eed5d34ea15
 k
 ;src/com/aluracursos/screenmatch/calculos/Clasificacion.java,0\6\067d0b27b695fd66b7b188a5e6b94b44effc2939
-s
-Csrc/com/aluracursos/screenmatch/calculos/FiltroRecomendaciones.java,4\1\41467880ef0d4a0024d3810a73dd6162672707fe
 q
 Asrc/com/aluracursos/screenmatch/calculos/FiltroRecomendacion.java,a\b\abfc753921caadab6347c4cf4fafefa44d37eee6
+h
+8src/com/aluracursos/screenmatch/principal/Principal.java,d\f\df9d8330f40f48e9114720c571dd86d200cf2b23
+p
+@src/com/aluracursos/screenmatch/principal/PrincipalConLista.java,0\7\07344e4592ac814b1edf07c6dc9cc004341e24f6
